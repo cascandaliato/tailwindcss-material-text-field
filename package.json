@@ -1,0 +1,14 @@
+{
+  "name": "google-input-field",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tailwindcss": "tailwindcss build tailwind.css -o styles.css",
+    "tailwindcss:purge": "tailwindcss build tailwind.css -o styles.purged.css -c tailwind.config.purge.js"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2",
+    "tailwindcss": "^1.9.6"
+  }
+}
